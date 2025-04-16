@@ -7,7 +7,7 @@ from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import Message
 
-TOKEN = ""
+from config import TOKEN
 
 dp = Dispatcher()
 
